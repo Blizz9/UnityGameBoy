@@ -122,6 +122,10 @@ namespace com.PixelismGames.UnityGameBoy
             return ((ushort)((high << 8) | low));
         }
 
+        public void WriteByte(ushort address, byte value)
+        {
+        }
+
         #endregion
     }
 }
